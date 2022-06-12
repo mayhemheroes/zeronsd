@@ -1,0 +1,7 @@
+project: zeronsd
+target: hosts
+
+cmds:
+  - cmd: /hosts
+  - cmd: /hosts_no_inst @@
+    libfuzzer: false
